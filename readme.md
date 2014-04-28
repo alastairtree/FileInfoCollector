@@ -23,7 +23,7 @@ It collects:
 
 **Basic use**
 
-    FileInforCollector.exe "c:\folder to analyse\" 
+    FileInfoCollector.exe "c:\folder to analyse\" 
 	
 Will output 2 files into folder "FileInfoCollectorWorkFolder_0000000"
 
@@ -44,7 +44,7 @@ Will output 2 files into folder "FileInfoCollectorWorkFolder_0000000"
 
 For stop resume to work (or just to force the output directory) you must tell FileInfoCollector where the working directory is to be located, so that the existing fileList.txt file cvan be read, if it exists
 
-    FileInforCollector.exe c:\folder_to_analyse\ c:\output_folder\ 
+    FileInfoCollector.exe c:\folder_to_analyse\ c:\output_folder\ 
 
 ## How good is it?
 It is a quick and dirty solution to a simple problem. However it has been proved to work reliably on lots of large files on a remote network share, so it is quite resilient. 
