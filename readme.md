@@ -14,7 +14,7 @@ It collects:
 * Collects checksums for all files in a folder.
 * Designed to work on massive directories, used on a million large files no problems. 
 * Speed, or at least "fast enough". It has some simple parallelism and was considerably faster than the solution it replaced.
-* Works against network shares, just use path \\server\folder\
+* Works against network shares, just use path `\\server\folder\`
 * Stop and resume for giant directoryies that can take hours to checksum every file. 
 * Progress reporting to console out. Again useful if you are running for a long time.
 * Error handling. If a file has some sort of issue then it is logged to the output file and the collector moves onto the next file.
@@ -42,7 +42,7 @@ Will output 2 files into folder "FileInfoCollectorWorkFolder_0000000"
 
 **Advanced use with stop/resume**
 
-For stop resume to work (or just to force the output directory) you must tell FileInfoCollector where the working directory is to be located, so that the existing fileList.txt file cvan be read, if it exists
+For stop resume to work (or just to force the output directory) you must tell FileInfoCollector where the working directory is to be located, so that the existing fileList.txt file can be read, if it exists
 
     FileInfoCollector.exe c:\folder_to_analyse\ c:\output_folder\ 
 
